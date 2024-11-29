@@ -1,2 +1,2 @@
-# Handy R&M Do-up
-## Our services are:
+# This is Rachel Chen
+## Let's build this web
