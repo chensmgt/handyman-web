@@ -1,3 +1,11 @@
 # This is Rachel Chen
 ## Let's build this web
 # This is a new project
+# My Blog
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+</ul>
