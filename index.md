@@ -4,12 +4,24 @@ Trying to build a new web for R&M.
 I'm interested in new things.
 # My Blog
 Blog my journey on GitHub.com
-<ul>
-  {% for post in site.posts %}
-  <li>
-    <a href="{{ https://github.com/chensmgt/handyman-web/blob/main/_layout/post.html }}">{{ post.title }} </a>
-  </li>
-  {% endfor %}
+{% for post in site.posts %}
+    {% if post.next %}
+        {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+        {% capture next_year %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+        {% if year != next_year %}
+            </ul>
+            <h2>{{ post.date | date: '%Y' }}</h2>
+            <ul>
+        {% endif %}
+    {% else %}
+        <h2>{{ post.date | date: '%Y' }}</h2>
+        <ul>
+    {% endif %}
+    <li>
+        <span>{{ post.date | date:"%b" }}</span>
+        <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+{% endfor %}
 </ul>
 # Get in Touch
 <ul>
