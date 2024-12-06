@@ -12,8 +12,6 @@ Blog my journey on GitHub.com
   {% endfor %}
 </ul>
 # Get in Touch
-<u1>
-  <1i>
-    <a href="https://github.com/{{ site.github_chensmgt }}">GitHub</a>
-  </1i>
-</u1>
+<ul>
+<li><a href="https://github.com/{{ site.github_chensmgt }}">GitHub</a></li>
+</ul>
