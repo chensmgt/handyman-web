@@ -7,7 +7,7 @@ Blog my journey on GitHub.com
 <ul>
   {% for post in site.posts %}
   <li>
-    <a href="{{ https://github.com/chensmgt/handyman-web/blob/main/_layout/post.html }}">{{ DO-UP }}</a>
+    <a href="{{ https://github.com/chensmgt/handyman-web/blob/main/_layout/post.html }}"> DO-UP </a>
   </li>
   {% endfor %}
 </ul>
