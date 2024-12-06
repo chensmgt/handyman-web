@@ -5,9 +5,9 @@ I'm interested in new things.
 # My Blog
 Blog my journey on GitHub.com
 <ul>
-  {% for post in site.post %}
+  {% for post in site.posts %}
   <li>
-    <a href="{{ post.url }}">{{ post.title }}post</a>
+    <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
   {% endfor %}
 </ul>
