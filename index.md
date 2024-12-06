@@ -1,11 +1,19 @@
-# This is Rachel Chen
-## Let's build this web
-# This is a new project
+# My Project
+Trying to build a new web for R&M.
+# My Interest
+I'm interested in new things.
 # My Blog
+Blog my journey on GitHub.com
 <ul>
   {% for post in site.posts %}
   <li>
     <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
   {% endfor %}
+</ul>
+# Get in Touch
+<ul>
+  <li>
+    <a href="https://github.com/{{ site.github_chengsmgt }}">GitHub</a>
+  </li>
 </ul>
