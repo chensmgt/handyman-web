@@ -14,6 +14,6 @@ Blog my journey on GitHub.com
 # Get in Touch
 <ul>
   <li>
-    <a href="https://github.com/{{ site.github_chensmgt">GitHub</a>
+    <a href="https://github.com/{{ site.github_chensmgt }}">GitHub</a>
   </li>
 </ul>
