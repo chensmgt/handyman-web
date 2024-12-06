@@ -4,6 +4,7 @@ Trying to build a new web for R&M.
 I'm interested in new things.
 # My Blog
 Blog my journey on GitHub.com
+<ul>
 {% for post in site.posts %}
     {% if post.next %}
         {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
